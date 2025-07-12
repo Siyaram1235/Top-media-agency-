@@ -1,0 +1,448 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Top Media Agency | Connecting Brands with Authentic Voices </title>
+<meta name="description" content="Elevate your online presence through our expert digital marketing solutions covering influencer marketing, social media management, and web development.">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<!-- Navigation -->
+<nav id="navbar">
+<div class="nav-container">
+<div class="logo">Top Media Agency</div>
+<button class="menu-btn" onclick="toggleMenu()">
+<i class="fas fa-bars"></i>
+</button>
+<div class="dropdown-menu" id="dropdownMenu">
+<a href="#home" class="menu-item">
+<i class="fas fa-home"></i>
+Home
+</a>
+<a href="#services" class="menu-item">
+<i class="fas fa-cogs"></i>
+Services
+</a>
+<a href="#process" class="menu-item">
+<i class="fas fa-project-diagram"></i>
+Our Process
+</a>
+<a href="#testimonials" class="menu-item">
+<i class="fas fa-star"></i>
+Testimonials
+</a>
+<a href="#achievements" class="menu-item">
+<i class="fas fa-trophy"></i>
+Achievements
+</a>
+<a href="#contact" class="menu-item">
+<i class="fas fa-phone"></i>
+Contact
+</a>
+</div>
+</div>
+</nav>
+
+<!-- Hero Section -->
+<section class="hero" id="home">
+<div class="hero-content">
+<h1>Fuel Your Business with Authentic Influencer Campaigns</h1>
+<p>We provide you great influencer marketing services and support your business growth in digital world and boost your brand</p>
+<p>#Best influencer marketing agency</p>
+<div class="hero-btns">
+<a href="#contact" class="btn">Get Started</a>
+<a href="#services" class="btn btn-secondary">Our Services</a>
+</div>
+</div>
+</section>
+
+<!-- Services Section -->
+<section class="section services" id="services">
+<div class="container">
+<div class="section-title">
+<h2>Our Influencer Marketing Services</h2>
+<p>Comprehensive solutions tailored to your business needs and goals</p>
+</div>
+<div class="services-grid">
+<div class="service-card">
+<div class="service-icon">
+<i class="fas fa-users"></i>
+</div>
+<h3>Influencer Marketing</h3>
+<p>Strategic brand partnerships with top influencers to amplify your reach and credibility in your industry.</p>
+</div>
+<div class="service-card">
+<div class="service-icon">
+<i class="fas fa-film"></i>
+</div>
+<h3>Video Editing</h3>
+<p>Professional post-production, animation, and video marketing services to engage your audience.</p>
+</div>
+<div class="service-card">
+<div class="service-icon">
+<i class="fas fa-hashtag"></i>
+</div>
+<h3>Social Media Management</h3>
+<p>Complete platform management, content creation, and analytics to grow your social presence.</p>
+</div>
+<div class="service-card">
+<div class="service-icon">
+<i class="fas fa-star"></i>
+</div>
+<h3>Management</h3>
+<p>Comprehensive reputation management including seamless payments,influencer's deals.</p>
+</div>
+
+</div>
+</section>
+
+<section class="client-section">
+<h2>Our Clients</h2>
+<div class="client-logos-wrapper">
+<div class="client-logos">
+<div class="clientlogo">
+<img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTQ4IiBoZWlnaHQ9IjI4IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj48ZGVmcz48cGF0aCBpZD0iYSIgZD0iTS4wMTMuMTIzaDExNy44NDN2MjQuODFILjAxM3oiLz48cGF0aCBpZD0iYyIgZD0iTTAgLjEyM2gxOS4wOTR2MjcuNzA0SDB6Ii8+PC9kZWZzPjxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+PGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMzAuMTIgLjA1KSI+PG1hc2sgaWQ9ImIiIGZpbGw9IiNmZmYiPjx1c2UgeGxpbms6aHJlZj0iI2EiLz48L21hc2s+PHBhdGggZD0iTTkuMjkzIDIwLjU1YTQuMjU1IDQuMjU1IDAgMCAxLTQuMjU4LTQuMjUxIDQuMjU1IDQuMjU1IDAgMCAxIDQuMjU4LTQuMjUxIDQuMjU1IDQuMjU1IDAgMCAxIDQuMjU3IDQuMjUgNC4yNTQgNC4yNTQgMCAwIDEtNC4yNTcgNC4yNTJabS4yMzItMTIuODg2Yy0xLjc4IDAtMy4yNzguNDU3LTQuNDU2IDEuMzAxVi4zMzVILjAxM3YxNS4wMzRjMCA2LjA0IDQuMTYgOS41NjUgOS4xMTMgOS41NjUgNC45NTUgMCA5LjMxNC0zLjQyIDkuMzE0LTguNjM1IDAtNS4yMTYtNC4xMzgtOC42MzUtOC45MTUtOC42MzVabTk5LjE1IDEyLjg4NmE0LjI1NCA0LjI1NCAwIDAgMS00LjI1Ny00LjI1MSA0LjI1NCA0LjI1NCAwIDAgMSA0LjI1OC00LjI1MSA0LjI1NCA0LjI1NCAwIDAgMSA0LjI1NyA0LjI1IDQuMjU0IDQuMjU0IDAgMCAxLTQuMjU3IDQuMjUyWm0wLTEyLjg4NmMtNC43NzUgMC05LjE4IDMuNDItOS4xOCA4LjYzNXM0LjQwNSA4LjYzNSA5LjE4IDguNjM1YzQuNzc3IDAgOS4xODEtMy40MiA5LjE4MS04LjYzNSAwLTUuMjE2LTQuNDA0LTguNjM1LTkuMTgtOC42MzVabS0xMS4zMzkgOC41MDJ2OC4zN2gtNS4xODl2LTguMzdjMC0yLjUwNC0xLjA0Mi0zLjg1Mi0zLjA2LTMuODUyLTIuMDE3IDAtMy4wNiAxLjM0OC0zLjA2IDMuODUydjguMzdoLTUuMTg5di04LjM3YzAtMi41MDQtMS4wNDItMy44NTItMy4wNi0zLjg1Mi0yLjAxNyAwLTMuMDYgMS4zNDgtMy4wNiAzLjg1MnY4LjM3SDY5LjUzdi04LjM3YzAtNS4yMTYgMy41NTgtOC41MDIgOC4yNDktOC41MDIgMi40MDkgMCA0LjM0Mi44NjkgNS42NTQgMi40MTggMS4zMTMtMS41NSAzLjI0Ni0yLjQxOCA1LjY1NC0yLjQxOCA0LjY5IDAgOC4yNSAzLjI4NiA4LjI1IDguNTAyWm0tNTAuNDU3LjEzM3Y4LjIzNkg0MS42OXYtNy44MzhjMC0yLjc2Ny0xLjA3Ny00LjM4My0zLjM5My00LjM4M3MtMy4zOTIgMS42MTYtMy4zOTIgNC4zODN2Ny44MzhoLTUuMTlWMTYuM2MwLTUuMjE2IDMuMzQ2LTguNjM1IDguNTgyLTguNjM1IDUuMjM2IDAgOC41ODIgMy40MiA4LjU4MiA4LjYzNVpNMjYuODEgMi45NjljMCAxLjYxLTEuNDE2IDIuODQ3LTMuMDggMi44NDctMS42NjUgMC0zLjA4Mi0xLjIzNy0zLjA4Mi0yLjg0NlMyMi4wNjUuMTIzIDIzLjczLjEyM2MxLjY2NSAwIDMuMDgxIDEuMjM4IDMuMDgxIDIuODQ3Wm0tNS42NzUgMjEuNTY2aDUuMTg5VjguMDYyaC01LjE5djE2LjQ3M1pNNTguMTkgMjAuNTVhNC4yNTQgNC4yNTQgMCAwIDEtNC4yNTctNC4yNTEgNC4yNTQgNC4yNTQgMCAwIDEgNC4yNTctNC4yNTEgNC4yNTQgNC4yNTQgMCAwIDEgNC4yNTggNC4yNSA0LjI1NCA0LjI1NCAwIDAgMS00LjI1OCA0LjI1MlptMC0xMi44ODZjLTQuNzc2IDAtOS4xOCAzLjQyLTkuMTggOC42MzVzNC40MDQgOC42MzUgOS4xOCA4LjYzNSA5LjE4LTMuNDIgOS4xOC04LjYzNWMwLTUuMjE2LTQuNDA0LTguNjM1LTkuMTgtOC42MzVaIiBmaWxsPSIjRkZGIiBtYXNrPSJ1cmwoI2IpIi8+PC9nPjxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDAgLjA1KSI+PG1hc2sgaWQ9ImQiIGZpbGw9IiNmZmYiPjx1c2UgeGxpbms6aHJlZj0iI2MiLz48L21hc2s+PHBhdGggZD0iTTcuNzI4IDI3LjM0YTMuNjM5IDMuNjM5IDAgMCAwIDQuOTY4LTEuMzNsNS45MS0xMC4yMjNhMy42MjggMy42MjggMCAwIDAtMS4zMzEtNC45NiAzLjY0IDMuNjQgMCAwIDAtNC45NjggMS4zM0w2LjM5NyAyMi4zOGEzLjYyOCAzLjYyOCAwIDAgMCAxLjMzMSA0Ljk2TS40ODggMTIuMTYzIDYuMzk4IDEuOTRBMy42NCAzLjY0IDAgMCAxIDExLjM2NC42MWEzLjYyOCAzLjYyOCAwIDAgMSAxLjMzMSA0Ljk2bC01LjkxIDEwLjIyNGEzLjY0IDMuNjQgMCAwIDEtNC45NjggMS4zMyAzLjYyOCAzLjYyOCAwIDAgMS0xLjMzLTQuOTYiIGZpbGw9IiNGRkRDM0MiIG1hc2s9InVybCgjZCkiLz48L2c+PC9nPjwvc3ZnPg==" alt="Client 1">
+</div>
+<div class="clientlogo">
+<img src="https://1winonline.in/wp-content/uploads/2025/06/logo-1.webp" alt="Client 2">
+</div>
+<div class="clientlogo">
+<img src="https://ifrd.4rabet-play.com/img/logo.svg" alt="Client 3">
+</div>
+<div class="clientlogo">
+<img src="https://parimatchglobal.com/logos/pm-logo.svg" alt="Client 4">
+</div>
+<div class="clientlogo">
+<img src="https://img.netbet.com/cdn-cgi/image/,f=webp/gms/images/global/layout/new-logo-white-en.png" alt="Client 5">
+</div>
+<div class="clientlogo">
+<img src="https://www.casino.org/_next/static/media/logo-casino-org.be1e3273.svg" alt="Client 6">
+</div>
+<!-- Add more logos as needed -->
+</div>
+</div>
+</section>
+
+
+
+<!-- Process Section -->
+<section class="section process" id="process">
+<div class="container">
+<div class="section-title">
+<h2>Our Proven Process</h2>
+<p>We follow a structured approach to ensure success for every project</p>
+</div>
+<div class="process-steps">
+<div class="process-step">
+<div class="step-number">1</div>
+<div class="step-content">
+<h3>Discovery & Strategy</h3>
+<p>We begin by understanding your business, goals, and target audience to develop a customized digital marketing strategy.</p>
+</div>
+</div>
+<div class="process-step">
+<div class="step-number">2</div>
+<div class="step-content">
+<h3>Planning & Execution</h3>
+<p>Our team creates detailed action plans and implements campaigns with precision and attention to detail.</p>
+</div>
+</div>
+<div class="process-step">
+<div class="step-number">3</div>
+<div class="step-content">
+<h3>Monitoring & Optimization</h3>
+<p>We continuously track performance metrics and optimize campaigns for better results and ROI.</p>
+</div>
+</div>
+<div class="process-step">
+<div class="step-number">4</div>
+<div class="step-content">
+<h3>Reporting & Analysis</h3>
+<p>Transparent reporting with actionable insights to measure success and guide future strategies.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<!-- Testimonials Section -->
+<section class="section testimonials" id="testimonials">
+<div class="container">
+<div class="section-title">
+<h2>What Our Clients Say</h2>
+<p>Hear from businesses that have transformed their digital presence with us</p>
+</div>
+<div class="testimonials-grid">
+<div class="testimonial-card">
+<div class="testimonial-content">
+<p>We are glad to work with a top media agency. We love it for great results and great work <br>~DollarHood Sir <br>(1Win Influencer Manager)</p>
+</div>
+</div>
+<div class="testimonial-card">
+<div class="testimonial-content">
+<p>Our website redesign and SEO strategy led to a 300% increase in organic traffic within just 6 months. Top Media Agency truly understands digital marketing on a deeper level.</p>
+</div>
+</div>
+<div class="testimonial-card">
+<div class="testimonial-content">
+<p> Top Media Agency revolutionized our social media presence. Engagement has tripled, and their strategies now bring us a steady flow of quality leads.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<!-- Achievements Section -->
+<section class="section achievements" id="achievements">
+<div class="container">
+<div class="section-title">
+<h2>Our Achievements</h2>
+<p>Milestones that demonstrate our expertise and commitment</p>
+</div>
+<div class="stats-grid">
+<div class="stat-card">
+<div class="counter">150+</div>
+<p>Brands</p>
+</div>
+<div class="stat-card">
+<div class="counter">1000+</div>
+<p>Influencers</p>
+</div>
+</div>
+</div>
+</section>
+
+<!-- Contact Section - Improved -->
+<section class="section contact" id="contact">
+<div class="container">
+<div class="section-title">
+<h2>Get In Touch</h2>
+<p>Ready to grow your business? Contact us today for a free consultation</p>
+</div>
+<div class="contact-container">
+<div class="contact-column form-column">
+<div class="contact-form">
+<form id="contactForm" action="https://formsubmit.co/contact@topmediaagency.in" method="POST">
+<input type="hidden" name="_subject" value="New Contact Form Submission">
+<input type="hidden" name="_template" value="table">
+<div class="form-group">
+<label for="name">Your Name</label>
+<input type="text" id="name" name="name" class="form-control" required>
+</div>
+<div class="form-group">
+<label for="email">Email Address</label>
+<input type="email" id="email" name="email" class="form-control" required>
+</div>
+<div class="form-group">
+<label for="phone">Phone Number</label>
+<input type="tel" id="phone" name="phone" class="form-control">
+</div>
+<div class="form-group">
+<label for="service">Service Interested In</label>
+<select id="service" name="service" class="form-control">
+<option value="">Select a service</option>
+<option value="influencer">Influencer Marketing</option>
+<option value="video">Video Editing</option>
+<option value="social">Social Media Management</option>
+</select>
+</div>
+<div class="form-group">
+<label for="message">Your Message</label>
+<textarea id="message" name="message" class="form-control" required></textarea>
+</div>
+<button type="submit" class="btn" style="width: 100%;">Send Message</button>
+</form>
+</div>
+</div>
+<div class="contact-column info-column">
+<div class="contact-info-card">
+<h3><i class="fas fa-paper-plane"></i> Contact Information</h3>
+<div class="contact-info-grid">
+<div class="contact-info-item">
+<div class="contact-icon">
+<i class="fas fa-map-marker-alt"></i>
+</div>
+<div class="contact-details">
+<h4>Our Office</h4>
+<p>India</p>
+</div>
+</div>
+<div class="contact-info-item">
+<div class="contact-icon">
+<i class="fas fa-envelope"></i>
+</div>
+<div class="contact-details">
+<h4>Email</h4>
+<p><a href="mailto:contact@topmediaagency.in">contact@topmediaagency.in</a></p>
+</div>
+</div>
+<div class="contact-info-item">
+<div class="contact-icon">
+<i class="fas fa-clock"></i>
+</div>
+<div class="contact-details">
+<h4>Working Hours</h4>
+<p>Monday - Friday: 10AM - 6PM</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<!-- Social Media Section -->
+<section class="section social-section">
+<div class="container">
+<div class="section-title">
+<h2>Connect With Us</h2>
+<p>Follow us on social media for digital marketing tips and updates</p>
+</div>
+<div class="social-media">
+<a href="https://www.instagram.com/official_top_media?" target="_blank" class="social-icon instagram">
+<i class="fab fa-instagram"></i>
+</a>
+<a href="https://www.linkedin.com/in/top-media-agency-0aa8b3364" target="_blank" class="social-icon linkedin">
+<i class="fab fa-linkedin-in"></i>
+</a>
+<a href="www.telegram.com" target="_blank" class="social-icon telegram">
+<i class="fab fa-telegram-plane"></i>
+</a>
+</div>
+</div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+<div class="container">
+<div class="footer-grid">
+<div class="footer-col">
+<h3>Top Media Agency</h3>
+<p>Performance-Based Infulencer Marketing-No Fluff,Just Results.</p>
+<p>Our name is TOP,<br>Our work is TOP</p>
+<div class="social-media" style="justify-content: flex-start; margin-top: 20px;">
+<a href="https://www.instagram.com/official_top_media?" target="_blank" class="social-icon instagram" style="width: 40px; height: 40px; font-size: 1.2rem;">
+<i class="fab fa-instagram"></i>
+</a>
+<a href="https://www.linkedin.com/in/top-media-agency-0aa8b3364?" target="_blank" class="social-icon linkedin" style="width: 40px; height: 40px; font-size: 1.2rem;">
+<i class="fab fa-linkedin-in"></i>
+</a>
+<a href="www.telegram.com" target="_blank" class="social-icon telegram" style="width: 40px; height: 40px; font-size: 1.2rem;">
+<i class="fab fa-telegram-plane"></i>
+</a>
+</div>
+</div>
+<div class="footer-col">
+<h3>Quick Links</h3>
+<ul class="footer-links">
+<li><a href="#home"><i class="fas fa-chevron-right"></i> Home</a></li>
+<li><a href="#services"><i class="fas fa-chevron-right"></i> Services</a></li>
+<li><a href="#process"><i class="fas fa-chevron-right"></i> Our Process</a></li>
+<li><a href="#testimonials"><i class="fas fa-chevron-right"></i> Testimonials</a></li>
+<li><a href="#contact"><i class="fas fa-chevron-right"></i> Contact</a></li>
+</ul>
+</div>
+<div class="footer-col">
+<h3>Services</h3>
+<ul class="footer-links">
+<li><a href="#"><i class="fas fa-chevron-right"></i> Influencer Marketing</a></li>
+<li><a href="#"><i class="fas fa-chevron-right"></i> Social Media Management</a></li>
+<li><a href="#"><i class="fas fa-chevron-right"></i> Website Development</a></li>
+<li><a href="#"><i class="fas fa-chevron-right"></i> Lead Generation</a></li>
+<li><a href="#"><i class="fas fa-chevron-right"></i> GMB Optimization</a></li>
+</ul>
+</div>
+<div class="footer-col">
+<h3>Contact Info</h3>
+<ul class="footer-links">
+<li><a href="#"><i class="fas fa-map-marker-alt"></i>India</a></li>
+<li><a href="mailto:contact@topmediaagency.in"><i class="fas fa-envelope"></i> contact@topmediaagency.in</a></li>
+<li><a href="#"><i class="fas fa-clock"></i> Mon-Fri: 10AM - 6PM</a></li>
+</ul>
+</div>
+</div>
+<div class="footer-bottom">
+<p>&copy; 2024 Top Media Agency. All rights reserved.</p>
+<p>Registered Office:India</p>
+</div>
+</div>
+</footer>
+
+<!-- Floating Contact Button -->
+<div class="floating-contact">
+<div class="contact-options" id="contactOptions">
+<a href="mailto:contact@topmediaagency.in" class="contact-option">
+<i class="fas fa-envelope fa-lg" style="color: var(--primary-color);"></i>
+<span>Send Email</span>
+</a>
+</div>
+<div class="contact-btn" onclick="toggleContact()">
+<i class="fas fa-comment-dots"></i>
+<div class="pulse"></div>
+</div>
+</div>
+
+<script>
+// Fixed Menu Toggle Function
+function toggleMenu() {
+const menu = document.getElementById('dropdownMenu');
+menu.classList.toggle('active');
+
+// Close when clicking outside
+document.addEventListener('click', function closeMenu(e) {
+if (!e.target.closest('.nav-container')) {
+menu.classList.remove('active');
+document.removeEventListener('click', closeMenu);
+}
+});
+}
+
+// Contact Button Toggle
+function toggleContact() {
+const options = document.getElementById('contactOptions');
+options.classList.toggle('active');
+
+// Close when clicking outside
+document.addEventListener('click', function closeOptions(e) {
+if (!e.target.closest('.floating-contact')) {
+options.classList.remove('active');
+document.removeEventListener('click', closeOptions);
+}
+});
+}
+
+// Navbar scroll effect
+window.addEventListener('scroll', function() {
+const nav = document.getElementById('navbar');
+if (window.scrollY > 50) {
+nav.classList.add('scrolled');
+} else {
+nav.classList.remove('scrolled');
+}
+});
+
+// Smooth scrolling for anchor links
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+anchor.addEventListener('click', function (e) {
+e.preventDefault();
+
+document.querySelector(this.getAttribute('href')).scrollIntoView({
+behavior: 'smooth'
+});
+
+// Close menu if mobile
+const menu = document.getElementById('dropdownMenu');
+if (menu.classList.contains('active')) {
+menu.classList.remove('active');
+}
+});
+});
+</script>
+</body>
+</html>
